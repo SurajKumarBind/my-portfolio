@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-35 px-25 bg-gray-900/97">
+    <section id="about" className="py-35 px-30 bg-gray-900/97">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 items-center">
         {/* Profile Image */}
         <div className="flex justify-center md:justify-start">
