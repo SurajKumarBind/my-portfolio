@@ -1,1 +1,5 @@
 @import "tailwindcss";
+/* src/styles/index.css */
+@import "tailwindcss/preflight";
+/* @tailwind components; */
+@tailwind utilities;
