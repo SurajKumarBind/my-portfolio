@@ -7,10 +7,11 @@ const About = () => {
         {/* Profile Image */}
         <div className="flex justify-center md:justify-start">
           <img
-  src="/Sk/sk1.jpg"
-  alt="Suraj Photo"
-  className="w-48 h-48 object-cover mx-auto shadow-lg rounded-full"
-/>
+            src="/Sk/sk1.jpg"
+            alt="Suraj Photo"
+            className="w-58 h-74 object-cover mx-auto shadow-lg rounded-[50%/55%]"
+            data-aos="zoom-in"
+          />
         </div>
 
         {/* Text Content */}
