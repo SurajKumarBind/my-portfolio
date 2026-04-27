@@ -10,3 +10,8 @@ export default defineConfig({
   },
   base: "/",  
 });
+
+//npm run build
+//git add .
+//git commit -m "UI update"
+//git push
