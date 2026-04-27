@@ -18,13 +18,15 @@ const About = () => {
         <div className="text-center md:text-left" data-aos="fade-left">
           <h3 className="text-gray-300 text-3xl font-bold mb-4">Who Am I?</h3>
           <p className="text-gray-300 text-base md:text-lg">
-            
 
-I am an Assistant Professor in Computer Science at INMANTEC Group of Institutions, Ghaziabad, and a passionate full-stack developer with strong expertise in both frontend and backend technologies. 
+I am an Assistant Professor in Computer Science at INMANTEC Group of Institutions, Ghaziabad, and a passionate full-stack developer with strong expertise in both frontend and backend technologies.
 
-I specialize in building scalable applications, designing responsive user interfaces, and delivering smooth, user-friendly experiences. Alongside teaching, I continuously work on real-world projects and stay updated with modern technologies to bridge the gap between academics and industry.
+I specialize in building scalable applications, designing responsive user interfaces, and delivering smooth, user-friendly experiences.
+
+Alongside teaching, I continuously work on real-world projects and stay updated with modern technologies to bridge the gap between academics and industry.
 
 My focus is on writing clean, maintainable code, developing reusable components, and continuously improving my technical and problem-solving skills.
+
           </p>
         </div>
       </div>
