@@ -1,21 +1,18 @@
 import React from "react";
 
 const skills = [
-  { name: "HTML", logo: "/My-Portfolio-Website/logos/html-5.svg" },
-  { name: "CSS", logo: "/My-Portfolio-Website/logos/css-3.svg" },
-  { name: "Bootstrap", logo: "/My-Portfolio-Website/logos/bootstrap-4.svg" },
-  { name: "Tailwind", logo: "/My-Portfolio-Website/logos/tailwind-css.svg " },
-  { name: "JavaScript", logo: "/My-Portfolio-Website/logos/javascript-js.svg" },
-  { name: "React", logo: "/My-Portfolio-Website/logos/react.svg" },
-  { name: "GitHub", logo: "/My-Portfolio-Website/logos/github.svg" },
-  { name: "Java", logo: "/My-Portfolio-Website/logos/java-ar21.svg" },
-  {
-    name: "Spring Boot",
-    logo: "/My-Portfolio-Website/logos/springio-ar21.svg",
-  },
-  { name: "MySQL", logo: "/My-Portfolio-Website/logos/mysql-ar21.svg" },
-  { name: "MongoDB", logo: "/My-Portfolio-Website/logos/mongodb.svg" },
-  { name: "REST API", logo: "/My-Portfolio-Website/logos/rest-api-icon.svg" },
+  { name: "HTML", logo: "/logos/html-5.svg" },
+  { name: "CSS", logo: "/logos/css-3.svg" },
+  { name: "Bootstrap", logo: "/logos/bootstrap-4.svg" },
+  { name: "Tailwind", logo: "/logos/tailwind-css.svg" }, // extra space removed
+  { name: "JavaScript", logo: "/logos/javascript-js.svg" },
+  { name: "React", logo: "/logos/react.svg" },
+  { name: "GitHub", logo: "/logos/github.svg" },
+  { name: "Java", logo: "/logos/java-ar21.svg" },
+  { name: "Spring Boot", logo: "/logos/springio-ar21.svg" },
+  { name: "MySQL", logo: "/logos/mysql-ar21.svg" },
+  { name: "MongoDB", logo: "/logos/mongodb.svg" },
+  { name: "REST API", logo: "/logos/rest-api-icon.svg" },
 ];
 
 const Skills = () => {
@@ -35,12 +32,12 @@ const Skills = () => {
               key={index}
               className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-3 px-4 bg-[#112240] rounded-md flex flex-col items-center"
               data-aos="fade-up"
-              data-aos-delay={`${index * 1}`}
+              data-aos-delay={`${index * 100}`} // smoother delay
             >
               <img
                 src={skill.logo}
                 alt={skill.name}
-                className="w-12 h-12 mb-3"
+                className="w-12 h-12 mb-3 object-contain"
               />
               <p className="text-xl font-semibold">{skill.name}</p>
             </div>
